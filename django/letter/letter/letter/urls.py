@@ -22,7 +22,7 @@ urlpatterns = [
 ]
 
 from django.conf.urls import include
-from django.urls import path
+from django.urls import path    
 
 urlpatterns += [
     path('homepage/', include('homepage.urls')),
