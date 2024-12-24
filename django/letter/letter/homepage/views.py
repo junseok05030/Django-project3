@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from homepage.models  import Mail, Author
+from homepage.models  import mail, Author
 
 def index(request):
 
