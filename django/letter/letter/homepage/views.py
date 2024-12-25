@@ -10,4 +10,5 @@ def letter_view(request):
     return render(request, 'letter.html')#letter.html을 렌더링해보자
 
 def homepage_view(request):
-    return render(request, 'homepage.html')#커밋이 안되네네
+    return render(request, 'homepage.html')#커밋이 안되네
+#커밋이 안돼!!!
